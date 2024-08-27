@@ -25,7 +25,7 @@ namespace Same_Picture
             button2.Click+=Button2_Click;
             button2.Enabled=true;
            
-            // deneme 353535
+            // deneme 777
             //string[] strings1 = { "picture1", "picture2", "picture3", "picture4" };
             //screen_width = this.Width;
             screen_width = Screen.PrimaryScreen.Bounds.Width;
