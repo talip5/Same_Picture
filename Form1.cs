@@ -35,7 +35,8 @@ namespace Same_Picture
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            button1.Text = "OK";
+            label1.Text ="button1";
+            label2.Text ="button2";
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -70,8 +71,18 @@ namespace Same_Picture
             //label1.Text = screen_width.ToString();
             //label2.Text = screen_height.ToString();
             
-            label1.Text = string.Empty;
-            label2.Text = string.Empty;
+            //label1.Text = string.Empty;
+            //label2.Text = string.Empty;
+            label1.BackColor = Color.Orange;
+            label2.BackColor = Color.Orange;
+            label1.AutoSize = false;
+            label2.AutoSize = false;
+            label1.Location = new Point(10,10);
+            label2.Location = new Point(10,100);
+            label1.Width = 100;
+            label2.Width = 100;
+            label1.Height = 50;
+            label2.Height = 50;
             
             button1.Location = new Point(this.Width - 100,10);
             button1.Text = "Form Close";

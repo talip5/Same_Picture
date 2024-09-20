@@ -28,13 +28,13 @@ namespace Same_Picture
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            this.TopLevel = false;
+            this.TopMost = false;
             
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-           
+            this.TopMost = true;
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -59,10 +59,11 @@ namespace Same_Picture
             button3.Top = 100;
             button3.Text ="Back";
 
-            
-            
+            this.TopLevel = true;
+            //this.Text = " page2";
 
-         
+
+
 
         }
     }
